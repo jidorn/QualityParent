@@ -1,0 +1,11 @@
+INSERT INTO personne (id, nom, prenom, mail, mdp, date_naissance) VALUES (1,'toto','toto','toto@afcepf.fr','toto','2012-12-21');
+INSERT INTO personne (id, nom, prenom, mail, mdp, date_naissance) VALUES (2,'toto2','toto2','toto2@afcepf.fr','toto2','2012-12-21');
+INSERT INTO personne (id, nom, prenom, mail, mdp, date_naissance) VALUES (3,'toto3','toto3','toto3@afcepf.fr','toto3','2012-12-21');
+INSERT INTO personne (id, nom, prenom, mail, mdp, date_naissance) VALUES (4,'admin','admin','admin@afcepf.fr','admin','2012-12-21');
+INSERT INTO personne (id, nom, prenom, mail, mdp, date_naissance) VALUES (5,'user','user','user@afcepf.fr','user','2012-12-21');
+INSERT INTO message (id, date_creation, contenu, id_destinataire, id_expediteur) VALUES (1,'2016-02-17 16:35:00','bla bla bla',1,2);
+INSERT INTO message (id, date_creation, contenu, id_destinataire, id_expediteur) VALUES (2,'2016-02-17 16:35:00','bla bla bla',2,1);
+INSERT INTO message (id, date_creation, contenu, id_destinataire, id_expediteur) VALUES (3,'2016-02-17 16:35:00','bla bla bla',3,4);
+INSERT INTO message (id, date_creation, contenu, id_destinataire, id_expediteur) VALUES (4,'2016-02-17 16:35:00','bla bla bla',4,5);
+INSERT INTO message (id, date_creation, contenu, id_destinataire, id_expediteur) VALUES (5,'2016-02-17 16:35:00','bla bla bla',5,4);
+INSERT INTO message (id, date_creation, contenu, id_destinataire, id_expediteur) VALUES (6,'2016-02-17 16:35:00','car',5,1);
